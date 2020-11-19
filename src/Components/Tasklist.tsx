@@ -4,7 +4,7 @@ import CheckCircleIcon from "@material-ui/icons/CheckCircle";
 import CircularProgress from "@material-ui/core/CircularProgress";
 
 
-interface props {
+export interface props {
     loading: boolean;
     tasks: task[];
     onPinned: (id:task["id"]) => void;

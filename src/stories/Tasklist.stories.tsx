@@ -1,5 +1,6 @@
 import React from 'react';
-import Tasklist,{props} from '../Components/Tasklist';
+import Tasklist from '../Components/Tasklist';
+import {props} from '../Components/Tasklist'
 import { Story, Meta } from "@storybook/react/types-6-0";
 
 export default {
