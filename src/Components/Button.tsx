@@ -4,12 +4,12 @@ export interface Props {
     value:string,
     style:any,
     onClick:() => void,
-    className: any,
+    
     
 }
-export const Button = ({value, style, onClick, className}:Props) => {
+export const Button = ({value, style, onClick, }:Props) => {
     return (
-        <button  style={style} onClick={onClick} className={className}>
+        <button  style={style} onClick={onClick} >
             {value}
         </button>
     )
@@ -19,5 +19,5 @@ Button.defaultProps = {
         alert('clicked')
     },
     value:"check",
-    
+    style:{backgroundColor:"red",color:"#fff"}
 }
